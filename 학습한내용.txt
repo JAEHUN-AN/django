@@ -1,0 +1,31 @@
+** 학습한 내용
+1. 파이썬 프로그래밍(24H)
+2. 웹 스크랩핑, 시각화, 데이터 분석 (24H)
+    - Request, BeautifulSoap, Seaborn, Pandas, Numpy
+        - 정규화(Regular Expression)
+        - Selenium(X)
+        - Scrapy(X)
+    - MariaDB 연동 (RDBMS)
+3. Django + Bootstrap (32H)
+    - Blog app
+4. Git
+5. Postman 
+------------------
+
+# Lab 1) Pandas를 이용한 기술 통계 예제
+- 3:50분까지 제출 (Convenient_stat.ipynb 파일)
+    - edowon0623@gmail.com 
+        - 과정명, 성명, 제출과제명
+- 4시에 문제 풀이 
+- 4:30분까지 제출하지 못한 분들 추가 제출 
+
+
+(관리자 권한으로 Anaconda 프롬프트 실행)
+$ conda install scrapy
+
+(설치 성공하신 분들)
+$ scrapy shell
+
+$ fetch(https://news.naver.com/main/list.nhn?mode=LSD&mid=sec&sid1=001)
+$ view(response)
+$ print(response.text)
